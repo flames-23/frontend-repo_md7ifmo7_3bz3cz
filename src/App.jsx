@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Resources from './components/Resources';
 import Analytics from './components/Analytics';
 import Footer from './components/Footer';
+import AdminBar from './components/AdminBar';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Resources />
       <Analytics />
       <Footer />
+      <AdminBar />
     </div>
   );
 }
